@@ -1,0 +1,20 @@
+.mb-3 {
+    font-size: large;
+    text-align: left;
+    color: white;
+    border-left: 10px;
+    border-right: 25px;
+}
+
+legend {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    color: white;
+}
+
+.formulario {
+    color: violet;
+}

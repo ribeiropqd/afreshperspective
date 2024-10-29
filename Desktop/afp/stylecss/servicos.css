@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    margin-top: 30x;
+    text-shadow: 4px 5px rgba(0, 0, 0, 1);
+}
+
+#quemsomos {
+    font-family: 'Playfair Display', serif;   
+    font-size: 4em;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    text-shadow: 4px 5px rgba(0, 0, 0, 1);    
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+#buttonbar {
+    margin-left: 10px;
+}
+
+.h {
+    text-align: center;
+}
+
+img {
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border-color: white;
+}
