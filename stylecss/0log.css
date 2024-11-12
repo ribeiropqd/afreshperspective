@@ -1,0 +1,53 @@
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2) ;
+    z-index: -1;
+}
+
+footer {
+    text-align: center;
+    color: rgba(245, 245, 245, 0.385);
+    margin-top: 45px;
+}
+
+header {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    font-family: 'Playfair Display', serif;
+}
+
+header h1 {
+    font-size: 150px;
+}
+
+h2 {
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+}
+
+.container {
+    max-width: 400px; 
+    margin-top: 50px;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 30px;
+    border-color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}

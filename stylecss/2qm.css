@@ -1,0 +1,103 @@
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.364);
+    margin-top: 50px;
+}
+
+.header h1 {
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif; 
+    font-size: 5em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.818);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header h2 {
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif; 
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.818);
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    color: rgba(245, 245, 245, 0.385);
+    margin-top: 45px;
+}
+
+.container.my-5 {
+    background-color: rgba(0, 0, 0, 0.314);
+    border-radius: white 1px;   
+}
+
+.col-lg-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    text-align: justify; /* Alinha o texto de forma justificada */
+    line-height: 1.6; /* Aumenta a altura das linhas para melhorar a legibilidade */
+    font-size: 1.2rem;
+    color: #ffffff;
+    width: 100%; /* Garante que o texto ocupe toda a largura do contêiner */
+    word-wrap: break-word; /* Faz com que palavras longas que não cabem na linha quebrem corretamente */
+    overflow-wrap: break-word;
+}
+
+img {
+    border: 5px solid #fff; /* Borda branca ao redor da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+    padding: 40px;
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+.container.my-4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+}
+
+.presentation-box {
+    background-color: rgba(0, 0, 0, 0.85); /* Fundo branco com 85% de opacidade */
+    border: 2px solid #000000; /* Borda leve */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-bottom: 15px;
+}
+
+/* Ajustando o layout responsivo */
+@media (max-width: 768px) {
+    .presentation-box {
+        padding: 20px; /* Menos padding em telas menores */
+    }
+
+    h2 {
+        font-size: 2rem; /* Tamanho do título ajustado */
+    }
+}

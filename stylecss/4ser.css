@@ -1,0 +1,90 @@
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.299);
+}
+
+
+.header h1 {
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif; 
+    font-size: 5em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.818);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header p {
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    text-shadow: 1px 1px black;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+footer {
+    text-align: center;
+    color: rgba(245, 245, 245, 0.385);
+    margin-top: 45px;
+}
+
+.list-group-item.no-background {
+    background-color: whitesmoke;
+    margin-right: 30px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.list-group-horizontal .list-group-item {
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.gallery-image {
+    max-width: 230px;
+    height: 330px;
+}
+
+figcaption {
+    font-family: 'Playfair Display', serif;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px whitesmoke;
+    text-decoration: double;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .service-description {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    transition: transform 0.3s;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.gallery-image {
+    border-radius: 5px;
+}
